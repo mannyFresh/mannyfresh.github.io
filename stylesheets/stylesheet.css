@@ -50,6 +50,16 @@ table {
 /*******************************************************************************
 Theme Styles
 *******************************************************************************/
+@font-face {
+   font-family: freefonts; 
+   src: url(/bohemian-typewriter/Bohemian typewriter.ttf) format("truetype"); 
+} 
+
+.font_sample_class {
+   font-family: "freefonts" , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+   font-size: 5em;
+}
+
 
 body {
   box-sizing: border-box;
