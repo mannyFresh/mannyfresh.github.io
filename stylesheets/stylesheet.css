@@ -55,7 +55,7 @@ Theme Styles
    src: url(/bohemian-typewriter/Bohemian typewriter.ttf) format("truetype"); 
 } 
 
-.font_sample_class {
+.add_here {
    font-family: "freefonts" , Calibri, Arial, Georgia, Verdana, Sans-Serif;
    font-size: 5em;
 }
