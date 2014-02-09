@@ -50,10 +50,12 @@ table {
 /*******************************************************************************
 Theme Styles
 *******************************************************************************/
-@font-face {
-   font-family: freefonts; 
-   src: url(/bohemian-typewriter/Bohemian typewriter.ttf) format("truetype"); 
-} 
+@font-face { 
+  font-family: Bohemian typewriter; 
+  src: url('http://www.mediafont.com/storage/contents/12808/font.eot'); 
+/* IE */ 
+  src: local('Bohemian typewriter'), url('http://www.mediafont.com/storage/contents/12808/Bohemian typewriter.ttf'); /* non-IE */ 
+}
 
 .add_here {
    font-family: "freefonts" , Calibri, Arial, Georgia, Verdana, Sans-Serif;
