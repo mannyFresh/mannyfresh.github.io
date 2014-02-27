@@ -4,7 +4,7 @@
     <title>Marc Savino</title>
 	<style type="text/css">
 		.Highlight { background-color:Gray;}
-		
+
 		h1 {
 			background-position: center;
 			background-repeat: no-repeat;
@@ -12,37 +12,26 @@
 			color: transparent;
 		}	
 
-		
 		.nav_pics {
 			display: inline-block;
 			margin-left: auto;
 			margin-right: auto;
 		}
-		
+
 		#footer {
 			text-align:center;
 		}
-		
+
 	</style>
     <script type="text/javascript" src="javascripts/jquery.js">
-	
-//		$(document).ready(function(){
-//				//perform here
-//				$("#my_button").click(function() {
-//					alert("Sup");
-//				});
-//			});
-		
 	</script>
 	<script type= "text/javascript">
 			$(document).ready(function(){
-				//perform here
-				alert('DOM Loaded');
-				
+
 				$("#my_button").click(function() {
 					prompt("Sup");
 				});
-				
+
 				$(".pic").click(function() {
 					$(this).slideUp();
 				});
@@ -50,7 +39,7 @@
 				$(".list").hover(function() {
 					$(this).toggleClass('Highlight');
 				});
-				
+
 				// hover methods for images
 				$("#about").hover(function() {
 					$(this).attr("src", "images/marc_about2.jpg");
@@ -66,7 +55,7 @@
 						$("<h2>Education</h2><ul><li><b>B(ad) A(ss) Computer Science</b>, Northeastern University, Boston, 2015.</li><li><b>i like it soccer</b>, Northeastern University, Boston, 2015.</li></ul>").appendTo(".add_here");
 					}
 				});
-				
+
 				$("#work").hover(function() {
 					$(this).attr("src", "images/marc_work2.jpg");
 				}, function() {
@@ -81,7 +70,7 @@
 						$('<li><a href="http://www.github.com/mannyFresh">Github</a></li>').appendTo(".add_here");
 					}
 				});
-				
+
 				$("#contact").hover(function() {
 					$(this).attr("src", "images/marc_contact2.jpg");
 				}, function() {
@@ -97,10 +86,8 @@
 					}
 				});
 			});
-	
-	</script>
 
-	
+	</script>
   </head>
   <body>
     <div id="main">
@@ -108,12 +95,6 @@
        <h1 id="name">
 			<div id="head_image"><center><img id="name" class="nav_pics" border="0" src="images/marc_name.jpg"/></center></div>
 	   </h1>
-	   
-<!--        <ul>
-         <li><a href="http://www.github.com/mannyFresh">Github</a></li>
-         <li>marcs@ccs.neu.edu</li>
-		 <button id="my_button">hi there</button>
-       </ul> -->
       </div>
       <div>
      	<img class="pic" src="images/freak.jpg"></img> 
@@ -122,15 +103,6 @@
 		<center><img src="images/me.jpg"></center>
 	  </div>
 	  <center><p class="add_here"></p></center>
-<!--      <h2>About</h2>
-     <p>Student.</p>
-     <img class="pic" src="freak.jpg"></img>
-      <h2>Education</h2>
-      <ul class="list">
-        <li><b>B.S. Computer Science</b>, Northeastern University, Boston, 2015.</li>
-        <li><b>i like it soccer</b>, Northeastern University, Boston, 2015.</li>
-      </ul>
-	</div> -->
 	<div id="footer">
 		<img id="about" class="nav_pics" border="0" src="images/marc_about.jpg"/>
 		<img id="work" class="nav_pics" border="0" src="images/marc_work.jpg"/>
